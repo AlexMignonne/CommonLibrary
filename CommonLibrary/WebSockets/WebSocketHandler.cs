@@ -3,7 +3,7 @@ using System.Net.WebSockets;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Common.WebSockets
+namespace CommonLibrary.WebSockets
 {
     public abstract class WebSocketHandler
     {

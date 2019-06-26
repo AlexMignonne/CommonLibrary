@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Linq;
+using Microsoft.AspNetCore.Http;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using System;
-using System.Linq;
 
-namespace Common.Swagger
+namespace CommonLibrary.Swagger
 {
     public class FilesUploadOperation 
         : IOperationFilter

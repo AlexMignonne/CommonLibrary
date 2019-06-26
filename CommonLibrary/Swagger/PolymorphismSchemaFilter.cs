@@ -1,10 +1,10 @@
-﻿using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Common.Swagger
+namespace CommonLibrary.Swagger
 {
     public class PolymorphismSchemaFilter<T> : ISchemaFilter
     {

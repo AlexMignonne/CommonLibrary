@@ -1,4 +1,4 @@
-﻿namespace Common.Swagger
+﻿namespace CommonLibrary.Swagger
 {
     public class SwaggerOptions
     {

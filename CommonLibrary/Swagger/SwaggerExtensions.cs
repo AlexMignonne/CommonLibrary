@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.Collections.Generic;
+using System.IO;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
-using System.Collections.Generic;
-using System.IO;
 
-namespace Common.Swagger
+namespace CommonLibrary.Swagger
 {
     public static class SwaggerExtensions
     {

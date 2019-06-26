@@ -1,4 +1,4 @@
-﻿namespace Common.RabbitMQ
+﻿namespace CommonLibrary.RabbitMQ
 {
     public class RabbitMQOptions
     {

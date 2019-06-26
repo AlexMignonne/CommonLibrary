@@ -1,7 +1,7 @@
-﻿using RabbitMQ.Client;
-using System;
+﻿using System;
+using RabbitMQ.Client;
 
-namespace Common.RabbitMQ
+namespace CommonLibrary.RabbitMQ
 {
     public class EndpointConfiguration : IDisposable
     {

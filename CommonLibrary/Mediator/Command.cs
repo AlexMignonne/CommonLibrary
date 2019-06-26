@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Common.Mediator
+namespace CommonLibrary.Mediator
 {
     public abstract class Command<TResponse>
         : Message, IRequest<TResponse>

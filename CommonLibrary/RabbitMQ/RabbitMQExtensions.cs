@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Common.RabbitMQ
+namespace CommonLibrary.RabbitMQ
 {
     public static class RabbitMQExtensions
     {

@@ -1,8 +1,8 @@
-﻿using MediatR;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
+using MediatR;
 
-namespace Common.Mediator
+namespace CommonLibrary.Mediator
 {
     public abstract class EventHandler 
         : INotificationHandler<Event>

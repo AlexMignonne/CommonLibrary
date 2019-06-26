@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Common.Helpers
+namespace CommonLibrary.Helpers
 {
     public static class TimeHelpers
     {

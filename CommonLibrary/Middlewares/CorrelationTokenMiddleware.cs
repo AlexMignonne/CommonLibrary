@@ -1,9 +1,9 @@
 ﻿using System;
-using Common.Helpers;
-using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
+using CommonLibrary.Helpers;
+using Microsoft.AspNetCore.Http;
 
-namespace Common.Middlewares
+namespace CommonLibrary.Middlewares
 {
     public class CorrelationTokenMiddleware
     {
