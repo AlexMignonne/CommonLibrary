@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using MediatR;
 
-namespace CommonLibrary.Mediator
+namespace CommonLibrary.Messages
 {
     public abstract class EventHandler 
         : INotificationHandler<Event>

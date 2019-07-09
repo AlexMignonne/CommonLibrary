@@ -9,10 +9,10 @@ namespace CommonLibrary.RabbitMQ
             string uri = null,
             string initialName = null)
         {
-            var factory = new ConnectionFactory
-            {
-                Uri = new Uri(uri)
-            };
+            var factory = new ConnectionFactory();
+
+            if (!string.IsNullOrWhiteSpace(uri))
+                factory.Uri = new Uri(uri);
 
             Model = factory.CreateConnection().CreateModel();
 

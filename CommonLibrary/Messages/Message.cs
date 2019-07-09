@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommonLibrary.Mediator
+namespace CommonLibrary.Messages
 {
     public abstract class Message
     {

@@ -19,7 +19,8 @@ namespace CommonLibrary.RabbitMQ
                 options.InitialName);
 
             services
-                .AddSingleton(endpointConfiguration);
+                .AddSingleton(endpointConfiguration)
+                .AddTransient<IBusPublisher, BusPublisher>();
 
             return services;
         }
