@@ -10,7 +10,7 @@ namespace CommonLibrary.RabbitMQ
         Task Send<TCommand>(
             TCommand command,
             Enumeration commandType,
-            string type,
+            ExchangeType exchangeType,
             string routingKey,
             bool durable = true,
             bool autoDelete = false,

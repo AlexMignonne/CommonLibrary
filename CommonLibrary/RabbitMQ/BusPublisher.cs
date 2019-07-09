@@ -21,7 +21,7 @@ namespace CommonLibrary.RabbitMQ
         public Task Send<TCommand>(
             TCommand command,
             Enumeration commandType,
-            string type,
+            ExchangeType exchangeType,
             string routingKey,
             bool durable = true,
             bool autoDelete = false,
@@ -33,7 +33,7 @@ namespace CommonLibrary.RabbitMQ
                                   $".{commandType.Name}" +
                                   ".Command";
 
-            _model.ExchangeDeclare(exchange, type, durable, autoDelete);
+            _model.ExchangeDeclare(exchange, exchangeType.Name, durable, autoDelete);
             _model.BasicPublish(
                 exchange,
                 routingKey,
